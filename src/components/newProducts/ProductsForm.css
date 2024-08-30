@@ -1,0 +1,25 @@
+.new-product-control{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+/*   flex-wrap: wrap; */
+  gap:2rem;
+  text-align:left;
+  margin-bottom: 1rem;
+}
+.new-product-control label{
+  display: block;
+  font-weight: bold;
+  margin-bottom:0.5rem;
+}
+.new-product-control input{
+  font:inherit;
+  padding:0.5rem;
+  border-radius:6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width:100%;
+}
+.new-product-actions{
+  text-align:right;
+}
